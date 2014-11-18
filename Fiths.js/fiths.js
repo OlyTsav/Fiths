@@ -1,0 +1,2 @@
+// JavaScript Document
+$(document).ready(function(){$(".container").each(function(){$("> div",this).length<2?$("> .box",this).addClass("single"):$("> div",this).length<3?$("> .box",this).addClass("halves"):$("> div",this).length<4?$("> .box",this).addClass("thirds"):$("> div",this).length<5?$("> .box",this).addClass("quarters"):$("> div",this).length>=5&&$("> .box",this).addClass("fiths")})});

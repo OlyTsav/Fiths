@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>Fiths.js</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/prism.css">
+<!--javascripts muthafucka-->
+<script src="scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/prism.js"></script>
+<script src="scripts/fiths.js"></script>
+</head>
+<body>
+
+<section id="headerIntro">
+<img class="bgimg" src="lobsterbg.png" />
+<div id="intro" class="container">
+<h1>Fiths.js</h1>
+<h3><em>because fuck your columns</em></h3>
+
+<section>
+   <a href="http://www.tylersavin.com/fiths/Fiths.js.zip" class="btn"><i class="fa fa-download"></i>&nbsp;&nbsp;Use Fiths</a>
+</section>
+</div>
+</section>
+
+<section id="fithsdemo" class="container">
+
+<section class="container">
+   <div class="box">
+     <div class="boxcontent">Single
+     </div>
+  </div>
+</section>
+
+<section class="container">
+   <div class="box">
+     <div class="boxcontent">Halves
+     </div>
+  </div>
+  <div class="box">
+     <div class="boxcontent">Halves
+     </div>
+  </div>
+</section>
+
+<section class="container">
+   <div class="box">
+     <div class="boxcontent">Thirds
+     </div>
+  </div>
+  <div class="box">
+     <div class="boxcontent">Thirds
+     </div>
+  </div>
+  <div class="box">
+     <div class="boxcontent">Thirds
+     </div>
+  </div>
+</section>
+
+<section class="container">
+   <div class="box">
+     <div class="boxcontent">Quarters
+     </div>
+  </div>
+  <div class="box">
+     <div class="boxcontent">Quarters
+     </div>
+  </div>
+  <div class="box">
+     <div class="boxcontent">Quarters
+     </div>
+  </div>
+  <div class="box">
+     <div class="boxcontent">Quarters
+     </div>
+  </div>
+</section>
+
+<section class="container">
+   <div class="box">
+     <div class="boxcontent">Fiths
+     </div>
+  </div>
+  <div class="box">
+     <div class="boxcontent">Fiths
+     </div>
+  </div>
+  <div class="box">
+     <div class="boxcontent">Fiths
+     </div>
+  </div>
+  <div class="box">
+     <div class="boxcontent">Fiths
+     </div>
+  </div>
+  <div class="box">
+     <div class="boxcontent">Fiths
+     </div>
+  </div>
+</section>
+<div style="clear:both"></div>
+</section>
+
+<section class="container" id="documentation">
+
+<div class="description">
+<h2>Documentation</h2>
+<ol>
+<li>Make any block element with the class of "container"</li>
+<li>Add as many child block elements with a class of "box"</li>
+<li>Fiths.js will automatically calculate box width relative to how many boxes are inside your container, and adjust to screen size accordingly.</li>
+</ol><div style="clear:both"></div>
+</div>
+
+<pre><code class="language-markup">
+&lt;section class="container"&gt;
+    &lt;div class="box"&gt;Halves&lt;/div&gt;
+    &lt;div class="box"&gt;Halves&lt;/div&gt;
+&lt;/section&gt;
+</code></pre>
+</section>
+
+<section class="container">
+	<div class="box">
+    <div class="boxcontent">Halves</div>
+    </div>
+    <div class="box">
+    <div class="boxcontent">Halves</div>
+    </div><div style="clear:both"></div>
+</section>
+
+<section class="container" id="documentation">
+
+<pre><code class="language-markup">
+&lt;section class="container"&gt;
+    &lt;div class="box"&gt;Fiths&lt;/div&gt;
+    &lt;div class="box"&gt;Fiths&lt;/div&gt;
+    &lt;div class="box"&gt;Fiths&lt;/div&gt;
+    &lt;div class="box"&gt;Fiths&lt;/div&gt;
+    &lt;div class="box"&gt;Fiths&lt;/div&gt;
+    &lt;div class="box"&gt;Fiths&lt;/div&gt;
+    &lt;div class="box"&gt;Fiths&lt;/div&gt;
+    &lt;div class="box"&gt;Fiths&lt;/div&gt;
+&lt;/section&gt;
+</code></pre><div style="clear:both"></div>
+</section>
+
+<section class="container">
+	<div class="box">
+    <div class="boxcontent">Fiths</div>
+    </div>
+    <div class="box">
+    <div class="boxcontent">Fiths</div>
+    </div>
+    <div class="box">
+    <div class="boxcontent">Fiths</div>
+    </div>
+    <div class="box">
+    <div class="boxcontent">Fiths</div>
+    </div>
+    <div class="box">
+    <div class="boxcontent">Fiths</div>
+    </div>
+    <div class="box">
+    <div class="boxcontent">Fiths</div>
+    </div>
+    <div class="box">
+    <div class="boxcontent">Fiths</div>
+    </div>
+    <div class="box">
+    <div class="boxcontent">Fiths</div>
+    </div><div style="clear:both"></div>
+</section>
+
+<section class="container">
+<div class="description">
+<h2>Some Notes</h2>
+<p>There is another div in my visual examples with a class of "boxcontent" for padding and additional syling (cursive font, padding, min-height, background-color, etc.) inside of each "box". This div is <strong>not</strong> shown in the code samples. Fiths provides the basic framwork and width sizing for responsive web design but leaves the rest of a sites styles up to the designer.</p>
+<div style="clear:both"></div>
+</div>
+</section>
+<div style="clear:both"></div>
+
+<section class="mecallout">Fiths - By: <a href="http://tylersavin.com">Tyler Savin</a></section>
+
+</body>
+</html>
